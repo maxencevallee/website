@@ -1,0 +1,61 @@
+@import "./reset.scss";
+@import "./variables.scss";
+
+// Composants
+@import "./components/navigation.scss";
+@import "./components//cta.scss";
+@import "./components//footer.scss";
+
+// Pages
+@import "./pages/home.scss";
+@import "./pages/works.scss";
+@import "./pages/project.scss";
+@import "./pages/contact.scss";
+@import "./pages/legals.scss";
+@import "./pages/error.scss";
+
+body {
+  font-family: $ClashGrotesk;
+  color: $Black;
+  background-color: $White;
+}
+
+.primary-button {
+  display: flex;
+  padding-left: 7px;
+  a {
+    display: inline;
+    color: $White;
+    font-weight: 500;
+    background: $Black;
+    border-radius: 8px;
+    &:hover span {
+      transform: translate(0, 0);
+    }
+    span {
+      transform: translate(-7px, -7px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: $Primary;
+      padding: 16px 24px;
+      border-radius: inherit;
+      transition: transform 0.25s ease-in-out, color 0.25s ease-in-out,
+        background-color 0.25s ease-in-out;
+    }
+  }
+}
+
+p {
+  font-family: $Inter;
+  color: $Grey;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+a {
+  font-family: $ClashGrotesk;
+  font-size: 18px;
+  color: $Grey;
+}

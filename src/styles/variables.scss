@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("../assets/fonts/ClashGrotesk-Variable.ttf") format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+// Polices
+$ClashGrotesk: "ClashGrotesk", sans-serif;
+$Inter: "Inter", sans-serif;
+
+// Couleurs
+$Primary: #4741a6;
+$Primary-Extra-Light: #f4f7fc;
+$Secondary: #f9ce69;
+$Black: #2d384d;
+$Grey: #737579;
+$White: #fafefe;

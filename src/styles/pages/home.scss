@@ -1,0 +1,266 @@
+.home-page {
+  .hero {
+    max-width: 1280px;
+    padding: 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    .content {
+      max-width: 560px;
+      padding-bottom: 4rem;
+      margin: auto;
+      .text {
+        text-align: center;
+        margin-bottom: 4rem;
+        h1 {
+          font-size: 56px;
+          font-weight: 600;
+          line-height: 90%;
+          margin-bottom: 1.5rem;
+        }
+        p {
+          font-size: 20px;
+          strong {
+            font-weight: 700;
+          }
+        }
+      }
+      .primary-button {
+        justify-content: center;
+      }
+    }
+    img {
+      max-width: 100%;
+      margin: auto;
+    }
+  }
+  .services {
+    max-width: 1280px;
+    padding: 5rem 1rem;
+    margin: auto;
+    .text {
+      text-align: center;
+      max-width: 768px;
+      margin: auto;
+      padding-bottom: 5rem;
+      h2 {
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 100%;
+        margin-bottom: 1.5rem;
+      }
+      p {
+        max-width: 560px;
+        margin: auto;
+      }
+    }
+    .container {
+      .card {
+        text-align: center;
+        margin-bottom: 5rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        img {
+          max-width: 128px;
+          margin-bottom: 1rem;
+        }
+        .content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          max-width: 880px;
+          h3 {
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 100%;
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+  .works {
+    max-width: 1280px;
+    padding: 5rem 1rem;
+    margin: auto;
+    .text {
+      text-align: center;
+      max-width: 768px;
+      margin: auto;
+      padding-bottom: 5rem;
+      h2 {
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 100%;
+        margin-bottom: 24px;
+      }
+      p {
+        max-width: 560px;
+        margin: auto;
+      }
+    }
+    .container {
+      padding-bottom: 5rem;
+      .item {
+        width: 100%;
+        height: 100%;
+        a {
+          .cover {
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+            img {
+              display: block;
+              width: 100%;
+              transition: 0.5s;
+            }
+          }
+          h3 {
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 100%;
+            margin-bottom: 0.5rem;
+            color: $Black;
+          }
+        }
+        &:nth-child(1) {
+          margin-bottom: 5rem;
+        }
+        &:hover img {
+          transform: scale(1.05);
+        }
+      }
+    }
+    .primary-button {
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-page {
+    .hero {
+      .content {
+        .primary-button {
+          a {
+            width: auto;
+          }
+        }
+      }
+    }
+    .services {
+      .container {
+        .card {
+          text-align: left;
+          display: flex;
+          margin-bottom: 8rem;
+          &:nth-child(2n + 1) {
+            img {
+              margin-right: 2rem;
+            }
+            .content {
+              margin-left: auto;
+            }
+          }
+          &:nth-child(2n) {
+            flex-direction: row-reverse;
+            img {
+              margin-left: 2rem;
+            }
+            .content {
+              margin-right: auto;
+            }
+          }
+          img {
+            padding: 0;
+            max-width: 100%;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .works {
+      .container {
+        display: flex;
+        .item {
+          &:nth-child(1) {
+            margin: 0 1rem 8rem 0;
+          }
+          &:nth-child(2) {
+            margin: 8rem 0 0 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home-page {
+    .hero {
+      padding: 8rem 1rem;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      .content {
+        margin: 0;
+        padding-right: 1rem;
+        .text {
+          text-align: left;
+          h1 {
+            font-size: 72px;
+          }
+        }
+        .primary-button {
+          justify-content: flex-start;
+        }
+      }
+      img {
+        width: 500px;
+        margin: 0;
+      }
+    }
+    .services {
+      padding: 8rem 1rem;
+      .text {
+        padding-bottom: 8rem;
+        h2 {
+          font-size: 48px;
+        }
+      }
+      .container {
+        .card {
+          .content {
+            h3 {
+              font-size: 36px;
+            }
+          }
+        }
+      }
+    }
+    .works {
+      padding: 8rem 1rem;
+      .text {
+        padding-bottom: 8rem;
+        h2 {
+          font-size: 48px;
+        }
+      }
+      .container {
+        .item {
+          a {
+            h3 {
+              font-size: 36px;
+            }
+          }
+          &:nth-child(1) {
+            margin: 0 2rem 8rem 0;
+          }
+          &:nth-child(2) {
+            margin: 8rem 0 0 2rem;
+          }
+        }
+      }
+    }
+  }
+}

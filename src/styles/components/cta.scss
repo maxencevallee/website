@@ -1,0 +1,54 @@
+.cta {
+  padding: 0 1rem;
+  margin-bottom: 5rem;
+  .wrapper {
+    max-width: 1248px;
+    padding: 2rem 1.5rem;
+    margin: auto;
+    background-color: $Primary-Extra-Light;
+    h2 {
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 100%;
+      padding-bottom: 0.5rem;
+    }
+    a {
+      display: inline;
+      position: relative;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 100%;
+      color: $Primary;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cta {
+    .wrapper {
+      padding: 5rem 4rem;
+      h2 {
+        font-size: 42px;
+      }
+      a {
+        font-size: 42px;
+        &::after {
+          content: "";
+          display: block;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          width: 0;
+          height: 4px;
+          background: $Primary;
+          transition: width 0.25s ease-in-out;
+        }
+        &:hover::after {
+          width: 100%;
+          left: 0;
+          right: auto;
+        }
+      }
+    }
+  }
+}
