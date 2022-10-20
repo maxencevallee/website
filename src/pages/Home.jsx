@@ -17,8 +17,6 @@ import CallToAction from "../components/CallToAction";
 const Home = () => {
   TabTitle("Maxence Vallée – Développeur & Designer d'interface");
 
-  ScrollReveal().reveal("h1");
-
   return (
     <div className="home-page">
       <Navigation />
