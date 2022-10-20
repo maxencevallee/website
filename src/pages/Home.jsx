@@ -1,7 +1,6 @@
 import React from "react";
 import { TabTitle } from "../config/TabTitle";
 import { NavLink } from "react-router-dom";
-import ScrollReveal from "scrollreveal";
 import Navigation from "../components/Navigation";
 import Bitmoji from "../assets/images/image-hero.svg";
 import Footer from "../components/Footer";
