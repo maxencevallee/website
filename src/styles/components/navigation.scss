@@ -55,11 +55,11 @@ header {
       .navigation-menu {
         ul {
           position: absolute;
-          top: 79px;
+          top: 78px;
           left: 0;
           flex-direction: column;
           width: 100%;
-          height: calc(100vh - 79px);
+          height: calc(100vh - 78px);
           background-color: $White;
           padding: 4rem 0;
           display: none;
