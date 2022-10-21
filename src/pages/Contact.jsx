@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 const API_URL = process.env.REACT_APP_API_URL;
 
 const Contact = () => {
-  TabTitle("Contact – Maxence Vallée");
+  TabTitle("Contact — Maxence Vallée");
 
   const [sent, setSent] = useState(false);
 

@@ -1,11 +1,12 @@
 import React from "react";
-import { TabTitle } from "../config/TabTitle";
 import { NavLink } from "react-router-dom";
+import { TabTitle } from "../config/TabTitle";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 
 const Error = () => {
-  TabTitle("Page introuvable – Maxence Vallée");
+  TabTitle("Page introuvable — Maxence Vallée");
+
   return (
     <div className="error-page">
       <Navigation />

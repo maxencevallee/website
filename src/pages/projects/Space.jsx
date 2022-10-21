@@ -5,8 +5,9 @@ import Footer from "../../components/Footer";
 import Header from "../../assets/images/space/illustration-1.png";
 import CallToAction from "../../components/CallToAction";
 
-const Aenan = () => {
-  TabTitle("Space – Maxence Vallée");
+const Project = () => {
+  TabTitle("Space — Maxence Vallée");
+
   return (
     <div className="project-page">
       <Navigation />
@@ -25,4 +26,4 @@ const Aenan = () => {
   );
 };
 
-export default Aenan;
+export default Project;

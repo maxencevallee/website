@@ -7,8 +7,9 @@ import Illustration1 from "../../assets/images/hôtel-rivage/illustration-2.png"
 import Illustration2 from "../../assets/images/hôtel-rivage/illustration-3.png";
 import CallToAction from "../../components/CallToAction";
 
-const Aenan = () => {
-  TabTitle("Hôtel Rivage – Maxence Vallée");
+const Project = () => {
+  TabTitle("Hôtel Rivage — Maxence Vallée");
+
   return (
     <div className="project-page">
       <Navigation />
@@ -29,4 +30,4 @@ const Aenan = () => {
   );
 };
 
-export default Aenan;
+export default Project;

@@ -1,6 +1,6 @@
 import React from "react";
-import { TabTitle } from "../config/TabTitle";
 import { NavLink } from "react-router-dom";
+import { TabTitle } from "../config/TabTitle";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import HôtelRivage from "../assets/images/hôtel-rivage/hotel-rivage.png";
@@ -8,7 +8,8 @@ import Space from "../assets/images/space/space.png";
 import CallToAction from "../components/CallToAction";
 
 const Works = () => {
-  TabTitle("Réalisations – Maxence Vallée");
+  TabTitle("Réalisations — Maxence Vallée");
+
   return (
     <div className="works-page">
       <Navigation />
