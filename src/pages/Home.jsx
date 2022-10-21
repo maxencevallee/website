@@ -1,6 +1,6 @@
 import React from "react";
-import { TabTitle } from "../config/TabTitle";
 import { NavLink } from "react-router-dom";
+import { TabTitle } from "../config/TabTitle";
 import Navigation from "../components/Navigation";
 import Bitmoji from "../assets/images/image-hero.svg";
 import Footer from "../components/Footer";
@@ -14,7 +14,7 @@ import Space from "../assets/images/space/space.png";
 import CallToAction from "../components/CallToAction";
 
 const Home = () => {
-  TabTitle("Maxence Vallée – Développeur & Designer d'interface");
+  TabTitle("Maxence Vallée — Développeur & Designer d'interface");
 
   return (
     <div className="home-page">
