@@ -16,10 +16,25 @@ const Legals = () => {
         <section className="infos">
           <ul>
             <li>
+              <p>
+                Maxence Vallée (EI) — 5 B Av. Marcel Proust, 28000 Chartres.
+              </p>
+              <p>Téléphone : 06 37 93 11 35</p>
+              <p>Mail : contact@maxencevallee.com</p>
+              <p>
+                En tant qu'entreprise individuelle Maxence Vallée ne perçoit pas
+                la TVA (article 293B du CGI).
+              </p>
+              <p>
+                Site internet hébergé par la société OVH — 2 rue Kellermann,
+                59100 Roubaix.
+              </p>
+            </li>
+            {/* <li>
               <h2>1. Présentation du site</h2>
               <h3>Éditeur</h3>
               <p>
-                Maxence Vallée EI <br />
+                Maxence Vallée (EI) <br />
                 5 B Av. Marcel Proust 28000 Chartres
                 <br />
                 contact@maxencevallee.com
@@ -313,7 +328,7 @@ const Legals = () => {
                 l’identification des personnes physiques auxquelles elles
                 s’appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978).
               </p>
-            </li>
+            </li> */}
           </ul>
         </section>
       </div>
