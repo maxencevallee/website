@@ -131,7 +131,6 @@ const Home = () => {
               </div>
               <h3>Space</h3>
               <p>Espace de travail partagé</p>
-              <h6>Voir le projet</h6>
             </NavLink>
           </div>
         </div>
