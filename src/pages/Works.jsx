@@ -8,7 +8,7 @@ import Space from "../assets/images/space/space.png";
 import CallToAction from "../components/CallToAction";
 
 const Works = () => {
-  TabTitle("Réalisations — Maxence Vallée");
+  TabTitle("Projets — Maxence Vallée");
 
   return (
     <div className="works-page">
@@ -16,12 +16,12 @@ const Works = () => {
       <div className="works-wrapper">
         <section className="hero">
           <h1>
-            Toutes mes <br /> réalisations
+            Sélection de <br /> réalisations
           </h1>
         </section>
         <section className="container">
           <div className="item">
-            <NavLink to="/realisations/hotel-rivage">
+            <NavLink to="/projets/hotel-rivage">
               <div className="cover">
                 <img src={HôtelRivage} alt="Hôtel Rivage" />
               </div>
@@ -30,7 +30,7 @@ const Works = () => {
             </NavLink>
           </div>
           <div className="item">
-            <NavLink to="/realisations/space">
+            <NavLink to="/projets/space">
               <div className="cover">
                 <img src={Space} alt="Space" />
               </div>

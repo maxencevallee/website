@@ -122,6 +122,12 @@
             margin-bottom: 0.5rem;
             color: $Black;
           }
+          h6 {
+            margin-top: 1rem;
+            font-weight: 500;
+            font-size: 20px;
+            color: $Primary;
+          }
         }
         &:nth-child(1) {
           margin-bottom: 5rem;
