@@ -116,7 +116,7 @@ const Home = () => {
         </div>
         <div className="container">
           <div className="item">
-            <NavLink to="realisations/hotel-rivage">
+            <NavLink to="projets/hotel-rivage">
               <div className="cover">
                 <img src={HôtelRivage} alt="Hôtel Rivage" />
               </div>
@@ -125,17 +125,18 @@ const Home = () => {
             </NavLink>
           </div>
           <div className="item">
-            <NavLink to="/realisations/space">
+            <NavLink to="/projets/space">
               <div className="cover">
                 <img src={Space} alt="Space" />
               </div>
               <h3>Space</h3>
               <p>Espace de travail partagé</p>
+              <h6>Voir le projet</h6>
             </NavLink>
           </div>
         </div>
         <div className="primary-button">
-          <NavLink to="/realisations">
+          <NavLink to="/projets">
             <span>Voir tous les projets</span>
           </NavLink>
         </div>
