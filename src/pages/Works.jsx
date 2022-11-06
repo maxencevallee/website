@@ -16,7 +16,7 @@ const Works = () => {
       <div className="works-wrapper">
         <section className="hero">
           <h1>
-            Sélection de <br /> réalisations
+            Sélection des <br /> projets réalisés
           </h1>
         </section>
         <section className="container">
