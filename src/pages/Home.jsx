@@ -26,12 +26,12 @@ const Home = () => {
             <p>
               Je suis Maxence,{" "}
               <strong>Développeur & Designer d'interface</strong> indépendant,
-              spécialisé dans la création et la refonte d'applications web.
+              spécialisé dans la création et la refonte de sites internet.
             </p>
           </div>
           <div className="primary-button">
             <NavLink to="/contact">
-              <span>Travaillons ensemble !</span>
+              <span>Lancer mon projet</span>
             </NavLink>
           </div>
         </div>
