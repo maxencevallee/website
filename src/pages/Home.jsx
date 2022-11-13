@@ -14,7 +14,7 @@ import Space from "../assets/images/space/space.png";
 import CallToAction from "../components/CallToAction";
 
 const Home = () => {
-  TabTitle("Maxence Vallée — Développeur & Designer d'interface");
+  TabTitle("Maxence Vallée – Développeur & Designer d'interface");
 
   return (
     <div className="home-page">
@@ -111,7 +111,7 @@ const Home = () => {
       </section>
       <section className="works">
         <div className="text">
-          <h2>Mes dernières réalisations</h2>
+          <h2>Mes derniers projets réalisés</h2>
           <p>Jetez un coup d'œil à mes dernières créations.</p>
         </div>
         <div className="container">
