@@ -12,13 +12,13 @@ footer {
     }
     .copyright {
       margin-bottom: 1rem;
-      .a-active {
-        color: $Black;
-      }
     }
-    .socials {
+    .legals {
       a {
-        color: $Primary;
+        color: $Black;
+        &:hover {
+          color: $Primary;
+        }
       }
     }
   }

@@ -6,7 +6,7 @@ import Header from "../../assets/images/space/illustration-1.png";
 import CallToAction from "../../components/CallToAction";
 
 const Project = () => {
-  TabTitle("Space — Maxence Vallée");
+  TabTitle("Space – Maxence Vallée");
 
   return (
     <div className="project-page">

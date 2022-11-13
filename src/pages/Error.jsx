@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 
 const Error = () => {
-  TabTitle("Page introuvable — Maxence Vallée");
+  TabTitle("Page introuvable – Maxence Vallée");
 
   return (
     <div className="error-page">
