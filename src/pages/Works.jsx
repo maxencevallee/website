@@ -8,7 +8,7 @@ import Space from "../assets/images/space/space.png";
 import CallToAction from "../components/CallToAction";
 
 const Works = () => {
-  TabTitle("Projets – Maxence Vallée");
+  TabTitle("Projets - Maxence Vallée");
 
   return (
     <div className="works-page">

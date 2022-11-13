@@ -4,7 +4,7 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 
 const Legals = () => {
-  TabTitle("Mentions légales – Maxence Vallée");
+  TabTitle("Mentions légales - Maxence Vallée");
 
   return (
     <div className="legals-page">
