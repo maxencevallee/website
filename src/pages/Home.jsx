@@ -10,7 +10,7 @@ import Développement from "../assets/images/step-3.svg";
 import Lancement from "../assets/images/step-4.svg";
 import Maintenance from "../assets/images/step-5.svg";
 import HôtelRivage from "../assets/images/hôtel-rivage/hotel-rivage.png";
-import Space from "../assets/images/space/space.png";
+import WorkingSpace from "../assets/images/working-space/working-space.png";
 import CallToAction from "../components/CallToAction";
 
 const Home = () => {
@@ -127,9 +127,9 @@ const Home = () => {
           <div className="item">
             <NavLink to="/projets/space">
               <div className="cover">
-                <img src={Space} alt="Space" />
+                <img src={WorkingSpace} alt="Working Space" />
               </div>
-              <h3>Space</h3>
+              <h3>Working Space</h3>
               <p>Espace de travail partagé</p>
             </NavLink>
           </div>

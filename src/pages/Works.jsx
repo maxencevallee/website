@@ -4,7 +4,7 @@ import { TabTitle } from "../config/TabTitle";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import HôtelRivage from "../assets/images/hôtel-rivage/hotel-rivage.png";
-import Space from "../assets/images/space/space.png";
+import WorkingSpace from "../assets/images/working-space/working-space.png";
 import CallToAction from "../components/CallToAction";
 
 const Works = () => {
@@ -32,9 +32,9 @@ const Works = () => {
           <div className="item">
             <NavLink to="/projets/space">
               <div className="cover">
-                <img src={Space} alt="Space" />
+                <img src={WorkingSpace} alt="Working Space" />
               </div>
-              <h3>Space</h3>
+              <h3>Working Space</h3>
               <p>Espace de travail partagé</p>
             </NavLink>
           </div>

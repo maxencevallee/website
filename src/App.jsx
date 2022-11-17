@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import CGV from "./pages/CGV";
 import HôtelRivage from "./pages/projects/HôtelRivage";
-import Space from "./pages/projects/Space";
+import WorkingSpace from "./pages/projects/WorkingSpace";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/projets" element={<Works />} />
         <Route path="/projets/hotel-rivage" element={<HôtelRivage />} />
-        <Route path="/projets/space" element={<Space />} />
+        <Route path="/projets/space" element={<WorkingSpace />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/mentions-legales" element={<CGV />} />
         <Route path="*" element={<Error />} />
