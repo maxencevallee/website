@@ -2,9 +2,9 @@ import React from "react";
 import { TabTitle } from "../../config/TabTitle";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
-import Header from "../../assets/images/hôtel-rivage/illustration-1.png";
-import Illustration1 from "../../assets/images/hôtel-rivage/illustration-2.png";
-import Illustration2 from "../../assets/images/hôtel-rivage/illustration-3.png";
+import Header from "../../assets/images/hôtel-rivage/header.png";
+import Illustration1 from "../../assets/images/hôtel-rivage/illustration-1.png";
+import Illustration2 from "../../assets/images/hôtel-rivage/illustration-2.png";
 import CallToAction from "../../components/CallToAction";
 
 const Project = () => {
