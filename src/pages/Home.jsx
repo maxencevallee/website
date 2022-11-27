@@ -14,7 +14,9 @@ import WorkingSpace from "../assets/images/working-space/working-space.png";
 import CallToAction from "../components/CallToAction";
 
 const Home = () => {
-  TabTitle("Maxence Vallée - Développeur & Designer d'interface");
+  TabTitle(
+    "Maxence Vallée - Développeur & Designer d'interface Freelance | Chartres (28)"
+  );
 
   return (
     <div className="home-page">
