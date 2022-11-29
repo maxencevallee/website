@@ -37,7 +37,7 @@ const Home = () => {
             </NavLink>
           </div>
         </div>
-        <img src={Bitmoji} alt="Illustration de Maxence Vallée" />
+        <img src={Bitmoji} alt="Maxence Vallée Photo" />
       </section>
       <section className="services">
         <div className="text">
